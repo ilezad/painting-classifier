@@ -1,0 +1,17 @@
+pandas
+
+pillow
+
+matplotlib
+
+tensorflow
+
+keras
+
+opencv
+
+sklearn
+
+tqdm
+
+beautifulsoup4
