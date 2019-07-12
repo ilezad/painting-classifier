@@ -145,7 +145,7 @@ def get_list_of_images(df, path, most_frequent_movements):
 def create_new_trainset(ntrain, nvalid, images, path):
     random.seed(datetime.now())
 
-    movements = ['cubism', 'impressionism', 'expressionism', 'symbolism', 'surrealism']
+    movements = ['cubism', 'impressionism', 'symbolism', 'postpainterly_abstraction', 'postimpressionism']
 
     valid_images_per_movement = []
 
@@ -157,17 +157,17 @@ def create_new_trainset(ntrain, nvalid, images, path):
     train = {
         'cubism': [],
         'impressionism': [],
-        'expressionism': [],
+        'postpainterly_abstraction': [],
         'symbolism': [],
-        'surrealism': []
+        'postimpressionism': []
     }
 
     validate = {
         'cubism': [],
         'impressionism': [],
-        'expressionism': [],
+        'postpainterly_abstraction': [],
         'symbolism': [],
-        'surrealism': []
+        'postimpressionism': []
     }
 
     for mov in valid_images_per_movement:
